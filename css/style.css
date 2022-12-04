@@ -1,0 +1,122 @@
+html, body{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.wrapper {
+    width: 1920px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+    height: 110px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    margin-top: 7px;
+    margin-left: 378px;
+}
+
+.text__inline-search{
+    font-family: Open Sans;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 9px 85px 9px 17px;
+    
+}
+
+.searchicon{
+    width: 45px;
+    height: 34px;
+    background-color: rgba(106, 106, 106, 1);
+    border-color: rgba(71, 71, 71, 1);
+}
+
+.cityname {
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 18px;
+    color:white;
+    line-height: 25px;
+    margin-top: 28px;
+}
+.numbers {
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+    padding-left: 25px;
+    margin-top: 28px;
+}
+.searchraw {
+    display: flex;
+    flex-direction: row;
+    width: 309px;
+    height: 34px;
+    margin-top: 40px;
+    background-color: rgba(106, 106, 106, 1);
+    margin-left: 58px;
+}
+
+.user__nav{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    align-items: flex-end;
+    margin-left: 29px;
+    margin-top: 32px;
+}
+
+.text__user {
+    font-family: Open Sans;
+    font-weight: 400px;
+    color: white;
+    font-size: 16px;
+    transition: .6s;
+}
+
+.text__user:hover{
+    text-decoration: underline;
+    scale: 1.2;
+    
+}
+
+.user__registration {
+    font-family: Open Sans;
+    font-weight: 400px;
+    color: white;
+    font-size: 16px;
+    transition: .6s;
+}
+
+.user__registration:hover{
+    text-decoration: underline;
+    scale: 1.2;
+}
+
+.icon__shop{
+    padding-top: 36px;
+    margin-left: 37px;
+    position: relative;
+}
+
+.number__shop{
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 14px;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(33, 86, 189, 1);
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
