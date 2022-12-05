@@ -27,13 +27,20 @@ html, body{
     line-height: 18px;
     margin: 9px 85px 9px 17px;
     
+    
 }
 
 .searchicon{
     width: 45px;
     height: 34px;
-    background-color: rgba(106, 106, 106, 1);
-    border-color: rgba(71, 71, 71, 1);
+    background-color: #474747;
+    border-left: 1px solid rgba(152, 152, 152, 1);
+   
+}
+
+.searchicon > img{
+margin-left: 13px;
+margin-top: 9px;
 }
 
 .cityname {
@@ -45,7 +52,7 @@ html, body{
     margin-top: 28px;
 }
 .numbers {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-weight: 700px;
     font-size: 18px;
     color: white;
@@ -59,8 +66,9 @@ html, body{
     width: 309px;
     height: 34px;
     margin-top: 40px;
-    background-color: rgba(106, 106, 106, 1);
+    background-color: #474747;
     margin-left: 58px;
+    outline: 1px solid rgba(152, 152, 152, 1);
 }
 
 .user__nav{
@@ -73,30 +81,33 @@ html, body{
 }
 
 .text__user {
-    font-family: Open Sans;
-    font-weight: 400px;
-    color: white;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #E4E4E4;
     font-size: 16px;
     transition: .6s;
+    opacity: 80%;
 }
 
 .text__user:hover{
     text-decoration: underline;
-    scale: 1.2;
-    
+    opacity: 100%;
+    scale: 1.1;
 }
 
 .user__registration {
-    font-family: Open Sans;
-    font-weight: 400px;
-    color: white;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #E4E4E4;
     font-size: 16px;
     transition: .6s;
+    opacity: 80%;
 }
 
 .user__registration:hover{
     text-decoration: underline;
-    scale: 1.2;
+    opacity: 100%;
+    scale: 1.1;
 }
 
 .icon__shop{
